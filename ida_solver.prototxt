@@ -1,0 +1,17 @@
+#net: "/home/kevin/caffe_practice/ida_final_project/ida_train_test_model.prototxt"
+net: "/home/kevin/caffe_practice/ida_final_project/alexnet.prototxt"
+#net: "/home/kevin/caffe_practice/ida_final_project/lenet_train_test.prototxt"
+test_iter: 1000
+test_interval: 1000
+base_lr: 1e-5
+momentum: 0.9
+weight_decay: 0.0005
+lr_policy: "step"
+stepsize: 100000
+gamma: 0.1
+power: 0.75
+display: 20
+max_iter: 400000
+snapshot: 10000
+snapshot_prefix: "ida"
+solver_mode: GPU
