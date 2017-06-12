@@ -6,7 +6,7 @@ This is a project of Intelligence Data Analysis course
 
 ### Step 1: Labels creation
 
-Create two folders, [training_labels] and [testing_labels], and run
+Create two folders, ```training_labels``` and ```testing_labels```, and run
 
 ```
 source create_lmdb.sh
