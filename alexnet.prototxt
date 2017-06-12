@@ -403,7 +403,6 @@ layer {
 layer {
   name: "loss"
   type: "SoftmaxWithLoss"
-  #type: "EuclideanLoss"
   bottom: "fc9"
   bottom: "label"
   top: "output_loss"
