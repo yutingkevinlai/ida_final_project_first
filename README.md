@@ -25,7 +25,7 @@ We need to subtract the mean image, so type
 source create_image_mean.sh
 ```
 
-You will get ```ida_mean.binaryproto``` in the directory
+You will get ```ida_mean.binaryproto``` in the directory, this is the input format for Caffe to read mean image
 
 ### Step 3: Start training
 
@@ -50,10 +50,16 @@ this will convert ```ida_mean.binaryproto``` into ```ida_mean.npy```
 2. Verify the trained caffemodel
 
 ```
-python deploy.py <PATH/TO/YOUR/IMAGE/DIR>/verify
+python deploy.py <PATH/TO/YOUR/IMAGE/DIR>/verify/xxxx.png(.jpg)
 ```
 
-### Step 5: Apply caffemodel to do multiple object poses classification
+for example
+
+```
+python deploy.py img/verify/5_0011.jpg
+```
+
+### Step 5: Apply caffemodel to do pose classification for multi-object scene
 
 ```
 cd <PATH/TO/YOUR/IMAGE/DIR>
