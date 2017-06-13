@@ -1,10 +1,10 @@
 # IDA Final Project First Part
 
-This is a project of Intelligence Data Analysis course
+This is a project of Intelligence Data Analysis course.
 
 committed by Yu-Ting Lai
 
-## First Part: Single Object Pose Classification
+## First Part: One Object Pose Classification in A Random Stacking Scene
 
 ### Step 1: Labels creation
 
@@ -74,7 +74,9 @@ for example
 python detect.py 4_0002.png
 ```
 
+## Second Part: Two Objects Pose Classification in A Random Stacking Scene
 
+Please go to [here](https://github.com/KevinXlab/ida_final_project_two) for more information.
 
 
 
