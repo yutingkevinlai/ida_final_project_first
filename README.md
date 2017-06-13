@@ -1,8 +1,10 @@
-# ida_final_project
+# IDA Final Project First Part
 
 This is a project of Intelligence Data Analysis course
 
-## First: Single Object Pose Classification
+committed by Yu-Ting Lai
+
+## First Part: Single Object Pose Classification
 
 ### Step 1: Labels creation
 
